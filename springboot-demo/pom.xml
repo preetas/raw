@@ -47,7 +47,7 @@
 <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-maven-plugin</artifactId>
             <configuration>
-                <mainClass>com.javadeveloperzone.controlle.IndexController</mainClass>
+                <mainClass>com.javadeveloperzone.controller.IndexController</mainClass>
             </configuration>
 </plugin>
 		</plugins>
