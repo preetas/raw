@@ -50,7 +50,7 @@
 <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-maven-plugin</artifactId>
             <configuration>
-                <mainClass>com.javadeveloperzone.SpringBootConfig</mainClass>
+                <mainClass>test.java.com.javadeveloperzone.SpringBootConfig</mainClass>
             </configuration>
 </plugin>
 		</plugins>
