@@ -20,7 +20,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-maven-plugin</artifactId>
             <configuration>
-                <mainClass>com.lapots.breed.hero.journey.web.HeroJourneyWebApplication</mainClass>
+                <mainClass>com.javadeveloperzone.controlle.IndexController</mainClass>
             </configuration>
         </plugin>
     </plugins>
