@@ -14,17 +14,6 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.0.0.RELEASE</version>
 	</parent>
-<build>
-    <plugins>
-        <plugin>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-maven-plugin</artifactId>
-            <configuration>
-                <mainClass>com.javadeveloperzone.controlle.IndexController</mainClass>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -54,6 +43,13 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+<plugin>
+<groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+            <configuration>
+                <mainClass>com.javadeveloperzone.controlle.IndexController</mainClass>
+            </configuration>
+</plugin>
 		</plugins>
 	</build>
 
